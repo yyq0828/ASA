@@ -1,0 +1,20 @@
+# Path to train and test images
+path: /yyq/rs/datasets/vedai_yolo/ # dataset root dir
+train: images/train
+val: images/val
+
+
+# number of classes
+nc: 9
+
+# class names
+names:
+  0: Car
+  1: Truck
+  2: Boat
+  3: Tractor
+  4: Camping (Van)
+  5: Pickup
+  6: Plane
+  7: Others
+  8: Vans

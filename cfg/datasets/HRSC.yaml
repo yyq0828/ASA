@@ -1,0 +1,49 @@
+# Ultralytics YOLO 🚀, AGPL-3.0 license
+# HRSC 2016 dataset 
+# parent
+# ├── ultralytics
+# └── datasets
+#     └── HRSC  
+
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+path: /yyq/rs/datasets/hrsc_yolo/ # dataset root dir
+train: images/train # train images (relative to 'path') 1411 images
+val:  images/val # val images (relative to 'path') 458 images
+test:  images/test # test images (optional) 937 images
+
+# Classes for DOTA 1.0
+names:
+  0: ship
+  1: aircraft carrier
+  2: warcraft
+  3: merchant ship
+  4: Nimitz
+  5: Enterprise
+  6: Arleigh Burke
+  7: WhidbeyIsland
+  8: Perry
+  9: Sanantonio
+  10: Ticonderoga
+  11: Kitty Hawk
+  12: Kuznetsov
+  13: Abukuma
+  14: Austen
+  15: Tarawa
+  16: Blue Ridge
+  17: OXo
+  18: Car carrier
+  19: 21_none
+  20: Hovercraft
+  21: 23_none
+  22: yacht
+  23: CntShip
+  24: Cruise
+  25: lute
+  26: Medical
+  27: Car carrier2
+  28: Ford-class
+  29: Midway-class
+  30: Invincible-class
+# Download script/URL (optional)
+#download: https://github.com/ultralytics/yolov5/releases/download/v1.0/DOTAv1.zip
+
